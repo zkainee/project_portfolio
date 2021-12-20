@@ -1,0 +1,28 @@
+/*
+    Author: Kaine van Ommeren
+    Date: 20-12-2021
+    Subject: Project portfolio website
+*/
+@font-face {
+    font-family: Quire Sans;
+    src: url(./fonts/QuireSans.ttf);
+}
+body
+{
+    font-family: 'Quire Sans', sans-serif;
+    background-color: #C1C1C1;
+}
+li a
+{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+a:visited
+{
+    color: white;
+}
+a:hover
+{   
+    color: white;
+}
