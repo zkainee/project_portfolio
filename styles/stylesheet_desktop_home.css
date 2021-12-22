@@ -41,6 +41,7 @@ a:hover
 }
 nav
 {
+    padding-top: 10px;
     float: right;
     font-size: 27px;
     padding-right: 20px;
@@ -64,4 +65,10 @@ h1
 p
 {
     padding-left: 40px;
+}
+#info
+{
+    padding: 10px 0 10px 40px;
+    text-align: center;
+    width: 600px;
 }
