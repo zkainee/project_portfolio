@@ -1,0 +1,107 @@
+/*
+    Author: Kaine van Ommeren
+    Date: 20-12-2021
+    Subject: Project portfolio website
+*/
+@font-face {
+    font-family: Quire Sans;
+    src: url(/fonts/QuireSans.ttf);
+}
+body
+{
+    font-family: 'Quire Sans', sans-serif;
+    background-color: #C1C1C1;
+    margin: 0;
+    scroll-behavior: smooth;
+    color: white;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a
+{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+a
+{
+    color: white;
+}
+a:visited
+{
+    color: white;
+}
+a:hover
+{
+    color: whitesmoke;
+}
+nav
+{
+    padding-top: 10px;
+    float: right;
+    font-size: 27px;
+    padding-right: 20px;
+}
+h1
+{
+    padding-left: 40px;
+}
+footer
+{
+    font-size: 23px;
+    position: fixed;
+    padding: 15px;
+    bottom: 0;
+    width: auto;
+    background-color: #8C8C8C;
+    color: white;
+    text-align: center;
+}
+.photo_developer
+{
+    max-width: 250px;
+    padding-left: 75px;
+    padding-bottom: 20px;
+    height: auto
+}
+.photo_kaine
+{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.logo_instagram
+{
+    width: 2%;
+    height: auto;
+    margin: 0;
+}
+.logo_twitter
+{
+    width: 2%;
+    height: auto;
+    margin: 0;
+}
+.logo_github
+{
+    width: 2%;
+    height: auto;
+    margin: 0;
+}
+.logo_linkedin
+{
+    width: 2%;
+    height: auto;
+    margin: 0;
+}
+#position_left
+{
+    position: fixed;
+}
+#position_right
+{
+    position: relative;
+}
