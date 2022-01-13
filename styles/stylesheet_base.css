@@ -27,6 +27,11 @@ li a
     padding: 8px 16px;
     text-decoration: none;
 }
+ul li:hover
+{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 a
 {
     color: white;
@@ -56,22 +61,18 @@ footer
     position: fixed;
     padding: 15px;
     bottom: 0;
-    width: auto;
+    width: 100vw;
+    height: auto;
     background-color: #8C8C8C;
     color: white;
     text-align: center;
-}
-.photo_developer
-{
-    max-width: 250px;
-    padding-left: 75px;
-    padding-bottom: 20px;
-    height: auto
 }
 .photo_kaine
 {
     padding-left: 40px;
     padding-top: 20px;
+    width: 23%;
+    height: auto;
 }
 .logo_instagram
 {
@@ -99,9 +100,11 @@ footer
 }
 #position_left
 {
+    display: flex;
     position: fixed;
 }
 #position_right
 {
-    position: relative;
+    display: flex;
+    position: absolute;
 }

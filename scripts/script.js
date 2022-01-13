@@ -17,6 +17,11 @@ function getAge(dateString) {
 }
 document.getElementById('age').innerHTML = getAge("2000/09/30");
 
+function toggleMobileMenu(menu)
+{
+    menu.classList.toggle('open');
+}
+
 var average = [
         ["Plannen & Ontwerpen",7],
         ["Realiseren",7.6],
