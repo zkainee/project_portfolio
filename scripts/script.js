@@ -15,7 +15,7 @@ function getAge(dateString) {
     }
     return age;
 }
-document.getElementById('age').innerHTML = getAge("2000/09/30");
+document.getElementsById("age").innerHTML = getAge("2000/09/30");
 
 function toggleMobileMenu(menu)
 {
@@ -33,3 +33,15 @@ var average = [
         ["Rekenen",3.9]
 ];
 console.log(average);
+
+function StartedCourse(date) 
+{
+    var monthStarted = new Date();
+    var currentMonth = new Date(date);
+    var d = monthStarted.getMonth() - currentMonth.getMonth();
+    if (d < 0 || (d === 0 && monthStarted.getMonth() < currentMonth.getMonth())) {
+        date--
+    }     
+    return date;
+}
+document.getElementById("courseMonth").innerHTML = date("2021/08/01");

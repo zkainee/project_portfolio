@@ -105,6 +105,7 @@ footer
 }
 #position_right
 {
-    display: flex;
-    position: absolute;
+    float: right;
+    padding-right: 4vh;
+    background-color: #8C8C8C;
 }
