@@ -59,10 +59,10 @@ footer
 {
     font-size: 23px;
     position: fixed;
-    padding: 15px;
+    padding: 12px;
     bottom: 0;
     width: 100vw;
-    height: auto;
+    height: 65px;
     background-color: #8C8C8C;
     color: white;
     text-align: center;
@@ -108,4 +108,8 @@ footer
     float: right;
     padding-right: 4vh;
     background-color: #8C8C8C;
+}
+.footer_center
+{
+    font-size: 17px;
 }

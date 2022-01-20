@@ -21,28 +21,17 @@ function toggleMobileMenu(menu)
 {
     menu.classList.toggle('open');
 }
+//
+// function StartedCourse(date)
+// {
+//     var today = new Date();
+//     var birthDate = new Date(date);
+//     var age = today.getFullYear() - birthDate.getFullYear();
+//     var m = today.getMonth() - birthDate.getMonth();
+//     if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+//         age--;
+//     }
+//     return age;
+// }
+// document.getElementById("courseMonth").innerHTML = StartedCourse("2020/08/01");
 
-function StartedCourse(date) 
-{
-    var today = new Date();
-    var birthDate = new Date(date);
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-        age--;
-    }
-    return age;
-}
-document.getElementById("courseMonth").innerHTML = StartedCourse("2020/08/01");
-
-var average = [
-    ["Plannen & Ontwerpen",7],
-    ["Realiseren",7.6],
-    ["Testen & Verbeteren",8.8],
-    ["Computervaardigheden",7.7],
-    ["Burgerschap",8.5],
-    ["Nederlands",6.5],
-    ["Engels",8],
-    ["Rekenen",3.9]
-];
-console.log(average);
