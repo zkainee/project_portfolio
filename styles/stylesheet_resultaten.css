@@ -1,0 +1,19 @@
+/*
+    Author: Kaine van Ommeren
+    Date: 20-12-2021
+    Subject: Project portfolio website
+*/
+td
+{
+    border: pink;
+    background-color: darkblue;
+}
+tr
+{
+    background-color: lawngreen;
+}
+table
+{
+    background-color: aliceblue;
+    color: crimson;
+}

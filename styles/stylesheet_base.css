@@ -5,7 +5,7 @@
 */
 @font-face {
     font-family: Quire Sans;
-    src: url(/fonts/QuireSans.ttf);
+    src: url(../fonts/QuireSans.ttf);
 }
 body
 {
