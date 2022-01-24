@@ -25,7 +25,7 @@ function ApplyGrades(myGrades, mySubject)
     {
         table += "<td>" + myGrades[i] + "</td>";
     }
-    table += "<td>" + GradeAverage(myGrades) + "</td>";
+    table += "<td>" + GradeAverage(myGrades).toFixed(2) + "</td>";
     table += "</tr>";
 }
 
