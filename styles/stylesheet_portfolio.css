@@ -3,6 +3,19 @@
     Date: 20-12-2021
     Subject: Project portfolio website
 */
+@font-face {
+    font-family: Quire Sans;
+    src: url(../fonts/QuireSans.ttf);
+}
+body
+{
+    font-family: 'Quire Sans', sans-serif;
+    background-color: #C1C1C1;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: white;
+}
 #extra_info
 {
     padding: 0 20px 0 20px;

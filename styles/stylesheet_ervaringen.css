@@ -1,0 +1,79 @@
+/*
+    Author: Kaine van Ommeren
+    Date: 20-12-2021
+    Subject: Project portfolio website
+*/
+@font-face {
+    font-family: Quire Sans;
+    src: url(../fonts/QuireSans.ttf);
+}
+body
+{
+    font-family: 'Quire Sans', sans-serif;
+    background-color: #C1C1C1;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: white;
+}
+#basisschool
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#basisschool_beek
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#middelbare_leeuwen
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#middelbare_druten
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#mbo_kw1c
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /*padding-bottom: 100px;*/
+}
+#Jumbo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#moeke
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#cubed
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p, h2
+{
+    text-align: center;
+}
