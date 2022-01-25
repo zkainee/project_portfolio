@@ -7,6 +7,7 @@
     font-family: Quire Sans;
     src: url(../fonts/QuireSans.ttf);
 }
+/* Base layer elke pagina */
 body
 {
     font-family: 'Quire Sans', sans-serif;
@@ -72,6 +73,10 @@ body
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+#cubed_center
+{
+    margin-bottom: 150px;
 }
 p, h2
 {

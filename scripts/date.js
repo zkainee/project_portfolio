@@ -10,9 +10,11 @@ function getAge(dateString) {
     var birthDate = new Date(dateString);
     var age = today.getFullYear() - birthDate.getFullYear();
     var m = today.getMonth() - birthDate.getMonth();
+    //Calculatie huidge datum - geboorte dag = aantal jaar weergeven
     if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
         age--;
     }
     return age;
 }
+// Aanpasbaar naar keuze, leeftijd veranderd mee.
 document.getElementById("age").innerHTML = getAge("2000/09/30");

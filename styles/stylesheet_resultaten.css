@@ -7,6 +7,7 @@
     font-family: Quire Sans;
     src: url(../fonts/QuireSans.ttf);
 }
+/* Base layer elke pagina */
 body
 {
     font-family: 'Quire Sans', sans-serif;
@@ -18,15 +19,19 @@ body
 }
 td
 {
-    border: pink;
-    background-color: darkblue;
+    background-color: white;
 }
 tr
 {
-    background-color: lawngreen;
+    background-color: white;
 }
 table
 {
-    background-color: aliceblue;
-    color: crimson;
+    background-color: black;
+    color: black;
+    margin-left: 130px;
+}
+article
+{
+    margin-left: 130px;
 }

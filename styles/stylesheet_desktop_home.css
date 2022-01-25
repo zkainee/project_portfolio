@@ -7,6 +7,7 @@
     font-family: Quire Sans;
     src: url(../fonts/QuireSans.ttf);
 }
+/* Base layer elke pagina */
 body
 {
     font-family: 'Quire Sans', sans-serif;
@@ -23,24 +24,23 @@ body
     float: left;
     margin: 0;
 }
-#hamburger-icon
-{
-    margin: auto 0;
-    display: none;
-    cursor: pointer;
-}
-#hamburger-icon div
-{
-    width: 35px;
-    height: 3px;
-    background-color: white;
-    margin: 6px 0;
-    transition: 0.4s;
-}
 #kaine
 {
     width: 20%;
     height: auto;
-    padding-left: 400px;
-    margin: 0;
+    top: 35vh;
+    left: 50vh;
+    position: sticky;
+    margin-left: 50px;
+}
+@media only screen and (max-width: 640px)
+{
+    #kaine
+    {
+        position: relative;
+        left: 20vh;
+        top: 20vh;
+        height: auto;
+
+    }
 }

@@ -9,14 +9,15 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/styles/stylesheet_base.css">
-        <link rel="stylesheet" href="/styles/stylesheet_portfolio.css">
-        <script src="/scripts/script.js" defer></script>
+        <link rel="stylesheet" href="../styles/stylesheet_base.css">
+        <link rel="stylesheet" href="../styles/stylesheet_portfolio.css">
+        <script src="../scripts/script.js" defer></script>
         <link rel="icon" href="../photos/LOGO_Kaine_02.png">
         <title>Portfolio - Kaine</title>
     </head>
     <body>
         <header>
+            <!--            Navigatie naar andere pagina's toe-->
             <nav>
                 <ul>
                     <li><a href="../index.html" title="Bekijk portfolio">Home</a></li>
@@ -25,7 +26,8 @@
                     <li><a href="../pages/ervaringen.html" title="Zie hier mijn CV">Ervaringen</a></li>
                 </ul>
             </nav>
-            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+            <!--            Responsive navigation menu telefoon-->
+            <div class="hamburger-icon" onclick="toggleMobileMenu(this)">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
@@ -38,7 +40,7 @@
             </div>
         </header>
         <main>
-            <img class="photo_kaine" src="/photos/LOGO_Kaine_02.png" alt="Logo kaine">
+            <img class="photo_kaine" src="../photos/LOGO_Kaine_02.png" alt="Logo kaine">
             <h1>
                 Portfolio pagina
             </h1>
@@ -53,14 +55,16 @@
             <p id="extra_info">
                 In de korte tijd dat ik deelneem aan deze studie heb ik wel een aantal opdrachten wat ik nooit had gedacht te kunnen creëren in een korte tijd.
             </p>
-<!--            TODO Afbeeldingen fixen: PORTFOLIO_-->
+            <img id="PORT_calc" src="../photos/PORTFOLIO_Calculator.PNG" alt="Foto Calculator opdracht">
+            <img id="PORT_website" src="../photos/PORTFOLIO_Website.PNG" alt="Foto lelijkste website">
         </main>
         <footer>
+            <!--            Social media icons-->
             <a href="../pages/sitemap.html"><p id="position_left">Sitemap</p></a>
-            <a href="https://www.instagram.com/zkaine/" target="_black"><img class="logo_instagram" src="/photos/LOGO_instagram.png" alt="Instagram_logo"></a>
-            <a href="https://twitter.com/zkaine_" target="_black"><img class="logo_twitter" src="/photos/LOGO_twitter.png" alt="Twitter_logo"></a>
-            <a href="https://github.com/zkainee" target="_black"><img class="logo_github" src="/photos/LOGO_github.png" alt="Github_logo"></a>
-            <a href="https://www.linkedin.com/in/kaine-van-ommeren-8300baa8/" target="_black"><img class="logo_linkedin" src="/photos/LOGO_linkedin.png" alt="LinkedIn_logo"></a>
+            <a href="https://www.instagram.com/zkaine/" target="_blank"><img class="logo_instagram" src="../photos/LOGO_instagram.png" alt="Instagram_logo"></a>
+            <a href="https://twitter.com/zkaine_" target="_blank"><img class="logo_twitter" src="../photos/LOGO_twitter.png" alt="Twitter_logo"></a>
+            <a href="https://github.com/zkainee" target="_blank"><img class="logo_github" src="../photos/LOGO_github.png" alt="Github_logo"></a>
+            <a href="https://www.linkedin.com/in/kaine-van-ommeren-8300baa8/" target="_blank"><img class="logo_linkedin" src="../photos/LOGO_linkedin.png" alt="LinkedIn_logo"></a>
             <a href="../pages/contact.html"><p id="position_right">Contact</p></a>
         </footer>
     </body>

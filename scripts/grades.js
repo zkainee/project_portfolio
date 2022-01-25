@@ -3,6 +3,7 @@
     Date: 20-12-2021
     Subject: Project portfolio website
 */
+// Alle vakken die ik op moment heb.
 var subject = ["Plannen & Ontwerpen","Realiseren","Testen & Verbeteren",
     "Computervaardigheden","Burgerschap","Nederlands","Engels","Rekenen"];
 
@@ -15,8 +16,10 @@ var gradesNED = [5.8, 7.1, 7.1];
 var gradesENG = [10, 8, 6];
 var gradesREK = [5.4, 8.0, 8];
 
+// Variable waar ik de table op bouw.
 var table = "";
 
+// Table builder
 function ApplyGrades(myGrades, mySubject)
 {
     table += "<tr>";
@@ -29,6 +32,7 @@ function ApplyGrades(myGrades, mySubject)
     table += "</tr>";
 }
 
+//Calculeert gemiddeld van aantal cijfers [3]
 function GradeAverage(subject)
 {
     var gradeAverage = 0;
